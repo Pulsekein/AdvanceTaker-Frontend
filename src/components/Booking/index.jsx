@@ -163,7 +163,7 @@ function Booking() {
               />
               <input
                 type="number"
-                placeholder="Amount per kg"
+                placeholder="Rs per kg"
                 value={item.amountPerKg}
                 onChange={(e) =>
                   handleItemChange(index, "amountPerKg", e.target.value)
