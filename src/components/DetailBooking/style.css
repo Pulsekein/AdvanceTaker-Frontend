@@ -1,0 +1,140 @@
+.details-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  .details-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2d2d2d;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .details-container p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .items-list {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fafafa;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+  }
+  
+  .item-detail {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+  }
+  
+  .item-detail:last-child {
+    border-bottom: none;
+  }
+  
+  .item-detail p {
+    margin: 4px 0;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    padding: 50px;
+    color: #888;
+  }
+  
+
+  .items-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .items-table th,
+  .items-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .items-table th {
+    background-color: #f2f2f2;
+  }
+
+  
+
+
+  .buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  .update-button, .delete-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px; /* Increased border radius for smoother look */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-left: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .update-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  .update-button:hover, .delete-button:hover {
+    opacity: 0.8;
+    transform: translateY(-1px); /* Smooth hover lift effect */
+  }
+  
+  .update-button:disabled, .delete-button:disabled {
+    background-color: #c5c5c5;
+    cursor: not-allowed;
+    color: #666;
+  }
+  
+  
+
+
+  .complete-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-left: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .complete-button:hover:not(:disabled) {
+    background-color: #45a049;
+    transform: translateY(-1px);
+  }
+  
+  .complete-button:disabled {
+    background-color: #c5c5c5;
+    cursor: not-allowed;
+    color: #666;
+  }
+  
