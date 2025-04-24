@@ -94,7 +94,7 @@ function Booking() {
 
   return (
     <div className="booking-container">
-      <h2 className="booking-title">Advance Booking Form</h2>
+      <h2 className="booking-title">Advance Booking </h2>
 
       <form className="booking-form" onSubmit={handleSubmit}>
         <div className="form-group">
