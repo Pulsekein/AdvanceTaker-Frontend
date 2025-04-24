@@ -140,7 +140,7 @@ function Details() {
           <tr>
             <th>Item Name</th>
             <th>Weight (kg)</th>
-            <th>Amount per Kg (₹)</th>
+            <th>Rs per Kg (₹)</th>
             <th>Total (₹)</th>
           </tr>
         </thead>
