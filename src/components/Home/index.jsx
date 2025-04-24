@@ -37,7 +37,14 @@ function Home() {
 
   return (
     <div className="home-container">
-      <h3 className="home-title">🍽 Baban Ji Khaja Dukan</h3>
+      <div className="home-title-wrapper">
+        <img 
+          src="/images/hinduism.png" 
+          alt="Baban Ji Logo" 
+          className="home-logo"
+        />
+        <h3 className="home-title">Baban Ji Khaja Dukan</h3>
+      </div>
 
       <div className="booking-section">
         <Booking />
