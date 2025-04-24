@@ -114,7 +114,7 @@ function Details() {
     <div className="details-container">
       <h2 className="details-title">Booking Details</h2>
 
-      <p><strong>Date:</strong> {booking.date}</p>
+      <p><strong>Date:</strong> {formatDate(booking.date)}</p>
 
       <p>
         <strong>नाम:</strong>{" "}
@@ -257,5 +257,13 @@ function Details() {
     </div>
   );
 }
+
+const formatDate = (dateString) => {
+  const dateObj = new Date(dateString);
+  const day = dateObj.getDate();
+  const month = dateObj.toLocaleString("default", { month: "long" });
+  const year = dateObj.getFullYear();
+  return `${day} ${month} ${year}`;
+};
 
 export default Details;
